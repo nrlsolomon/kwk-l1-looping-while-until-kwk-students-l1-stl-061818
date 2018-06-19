@@ -5,20 +5,22 @@ def using_while
 	
 end
 
-def cupid_shuffle
-  counter = 10
+def using_while
+ 
+  levitation_force = 10
   
-  until counter == 0 do
+  
+  while levitation_force == 0 do
     
     puts "Wingardium Leviosa"
   
-    counter -= 1
+    levitation_force -= 1
 
   end
 
 end 
 
-cupid_shuffle
+using_while
 
 
 
